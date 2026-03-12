@@ -1,1 +1,4 @@
-# sql-sales-analytics
+- This project is an end‑to‑end sales analytics solution built entirely in SQL Server on top of a star‑schema data warehouse with customer, product and sales tables.
+- It explores several years of transactional data to answer practical business questions: How are revenue, orders and quantities trending over time, which products and categories drive most sales, and which customers should be prioritized for retention or upsell.
+- I use joins, CTEs, aggregate and window functions (running totals, moving averages, rank) to build change‑over‑time, cumulative and part‑to‑whole analyses.
+- The project also introduces my own customer and product segmentation rules (e.g., thresholds for VIP vs regular customers and high‑ vs low‑performing products), producing clean, insight‑ready result sets that can be plugged into BI tools or dashboards.
